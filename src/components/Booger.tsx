@@ -7,7 +7,7 @@ type BoogerClickProps = {
 export default function BoogerClick({ onClick }: BoogerClickProps) {
 	return (
 		<button onClick={onClick}>
-			<Image src="/boogs.png" width={512} height={512} alt="Bogey" className="spinning"/>
+			<Image src="/booger.png" width={512} height={512} alt="Bogey" className="spinning"/>
 		</button>
 	)
 }
